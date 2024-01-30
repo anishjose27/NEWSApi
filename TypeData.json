@@ -1,0 +1,101 @@
+[
+  {
+    "Name": "TEMP",
+    "Description": "Body Temperature",
+    "Ranges": [
+      {
+        "Start": 31,
+        "End": 35,
+        "Value": 3
+      },
+      {
+        "Start": 35,
+        "End": 36,
+        "Value": 1
+      },
+      {
+        "Start": 36,
+        "End": 38,
+        "Value": 0
+      },
+      {
+        "Start": 38,
+        "End": 39,
+        "Value": 1
+      },
+      {
+        "Start": 39,
+        "End": 42,
+        "Value": 2
+      }
+    ]
+  },
+  {
+    "Name": "HR",
+    "Description": "Heart Rate",
+    "Ranges": [
+      {
+        "Start": 25,
+        "End": 40,
+        "Value": 3
+      },
+      {
+        "Start": 40,
+        "End": 50,
+        "Value": 1
+      },
+      {
+        "Start": 50,
+        "End": 90,
+        "Value": 0
+      },
+      {
+        "Start": 90,
+        "End": 110,
+        "Value": 1
+      },
+      {
+        "Start": 110,
+        "End": 130,
+        "Value": 2
+      },
+      {
+        "Start": 130,
+        "End": 220,
+        "Value": 3
+      }
+    ]
+  },
+  {
+    "Name": "RR",
+    "Description": "Respiratory Rate",
+    "Ranges": [
+      {
+        "Start": 3,
+        "End": 8,
+        "Value": 3
+      },
+      {
+        "Start": 8,
+        "End": 11,
+        "Value": 1
+      },
+      {
+        "Start": 11,
+        "End": 20,
+        "Value": 0
+      },
+      {
+        "Start": 20,
+        "End": 24,
+        "Value": 2
+      },
+      {
+        "Start": 24,
+        "End": 60,
+        "Value": 3
+      }
+    ]
+  },
+
+]
