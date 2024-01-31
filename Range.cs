@@ -1,4 +1,6 @@
-﻿namespace NEWSApi
+﻿using System.Configuration;
+
+namespace NEWSApi
 {
     /// <summary>
     /// Represents a range with start, end, and associated value.
@@ -16,6 +18,11 @@
             Start = start;
             End = end;
             Value = value;
+            if(Start>End)
+            {
+                // Throw an exception if the ranges are not configured properly.
+                throw new ConfigurationErrorsException($"Start of a range should not be more than the end");
+            }
         }
 
         /// <summary>
